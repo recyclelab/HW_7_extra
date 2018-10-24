@@ -1,0 +1,152 @@
+.canvas{
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 10%;
+    width: 100%;
+    height: 100%;
+    background: none;
+  }
+  
+
+  #house{
+    top: 30%;
+    left: 50%;
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+    
+}
+
+
+.roof {
+    width: 0; 
+    height: 0; 
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 150px solid red;
+    display: block;
+    margin: 0;
+    position: relative;
+    
+
+}
+
+.chimney{
+    background-color: black;
+    width:40px;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+    top: 25px;
+    left: 65px;
+    z-index: -1;
+   
+}
+
+
+.houseBody{
+    background-color: #FDA76A;
+    width:200px;
+    height: 210px;
+    position: relative;
+    left: 50px;
+    z-index: -1;
+
+}
+
+
+.door{
+    background-color: brown;
+    width: 80px;
+    height: 140px;
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    border-radius: 50%;
+
+}
+
+.knob{
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 60px;
+    top: 55px;
+    border-radius: 50%;
+}
+
+.glass{
+    background-color: lightblue;
+    width:25px;
+    height: 25px;
+    margin: 1px;
+    display: inline-block;
+    border-collapse: collapse;
+    border-spacing: 1px;
+    
+}
+
+.houseWindow{
+    display: table;
+    border-collapse: collapse;
+    background: brown;
+    margin: 10px;
+    float: left;
+    left:20px;
+    
+}
+
+/*
+.windows{
+
+
+}
+
+.windowLeft{
+    background-color: #ffffff;
+    width:50px;
+    height: 50px;
+    position: absolute;
+    left: 15%;
+    top:50%;
+}
+
+.windowRight{
+    background-color: #ffffff;
+    width:50px;
+    height: 50px;
+    position: absolute;
+    left: 25%;
+    top:50%;
+}
+
+#tree{
+
+}
+
+.stump{
+    background-color: brown;
+    width:28px;
+    height: 100px;
+    position: absolute;
+    left: 155px;
+    top: 300px;
+
+}
+
+.crown{
+    background-color: green;
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 120px;
+    top: 220px;
+
+}
+
+
+
+*/

@@ -1,0 +1,32 @@
+#building{
+    width: 240px;
+    height:360px;
+    background-color: gray;
+    top: 30%;
+    left: 10%;
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.window{
+    width: 30px;
+    height: 40px;
+    float: left;
+    display: inline;
+    margin: 15px;
+    background-color: lightblue;
+
+}
+
+.entrance{
+    background-color: brown;
+    border: solid 2px black;
+    width: 70px;
+    height: 85px;
+    position: absolute;
+    top: 270px;
+    left:85px;
+    border-radius: 50% 50% 0 0;
+    
+}
