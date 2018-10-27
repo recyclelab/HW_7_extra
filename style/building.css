@@ -1,4 +1,4 @@
-#building{
+    #building{
     width: 240px;
     height:360px;
     background-color: gray;
@@ -14,8 +14,9 @@
     height: 40px;
     float: left;
     display: inline;
-    margin: 15px;
+    margin: 14px;
     background-color: lightblue;
+    border: solid 1px black;
 
 }
 

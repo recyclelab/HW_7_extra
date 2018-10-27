@@ -1,0 +1,58 @@
+.tree{
+    position: absolute;
+    top: 30%;
+    left:360px;
+    z-index: 1;
+
+}
+
+/*
+.treeCrown{
+    position: absolute;
+    width: 165px;
+    height: 200px;
+    float: left;  
+}
+*/
+
+.green{
+    position: relative;
+    background-color: green;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: block;
+}
+
+.green:first-child{
+    left:40px;
+}
+
+.green:nth-child(2){
+    top: -60px;
+}
+
+.green:nth-child(3){
+    top: -150px;
+    left: 80px;
+}
+
+.green:nth-child(4){
+    top: -190px;
+    left: 20px;
+}
+
+.green:last-child{
+    top: -280px;
+    left: 60px;
+}
+
+.treeStump{
+    position: absolute;
+    left:70px;
+    top:160px;
+    width:30px;
+    height: 200px;
+    z-index: -1;
+    background-color: brown;
+}
